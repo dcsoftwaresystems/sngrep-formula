@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 # vim: ft=yaml
 ---
-TEMPLATE:
+sngrep:
   pkg:
-    name: TEMPLATE
+    name: sngrep
   rootgroup: root
-  config: '/etc/TEMPLATE'
+  config: '/etc/sngrep'
   service:
-    name: TEMPLATE
+    name: sngrep
   subcomponent:
-    config: '/etc/TEMPLATE-subcomponent-formula.conf'
+    config: '/etc/sngrep-subcomponent-formula.conf'
   # Just here for testing
   added_in_defaults: defaults_value
   winner: defaults

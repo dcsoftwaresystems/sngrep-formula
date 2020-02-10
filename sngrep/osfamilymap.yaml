@@ -12,23 +12,23 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: sngrep-debian
+  config: /etc/sngrep.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: sngrep-redhat
+  config: /etc/sngrep.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: sngrep-suse
 
 Gentoo: {}
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: sngrep-arch
   service:
     name: service-arch
 
